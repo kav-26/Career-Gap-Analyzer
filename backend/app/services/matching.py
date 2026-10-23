@@ -29,9 +29,16 @@ For EACH requirement, in the same order given, return one entry:
 - matched_skill: the single best matching skill from the student's skill list, copied EXACTLY as written there. Use null if nothing is relevant.
 - relation:
   "same"    = the student's skill clearly covers the requirement (for example SQL for SQL, Python for Python, MySQL for "relational databases").
-  "related" = an adjacent or transferable skill (for example MySQL for PostgreSQL, Flask for FastAPI, MongoDB for "NoSQL databases" only if the requirement is broader).
+  "related" = an adjacent or transferable skill (for example Flask for FastAPI, or MongoDB for a broader requirement).
   "none"    = nothing in the list is relevant.
 - reason: one short sentence explaining the decision.
+
+Special cases:
+- ALTERNATIVES: if the requirement offers a choice (for example "AWS or GCP", "FastAPI or Flask", "PostgreSQL or MySQL"),
+  the student only needs ANY ONE of them. Use "same" if the student has any one of the options; use "related" only if the student has a closely related skill but none of the options.
+- CATEGORY WITH EXAMPLES: if the requirement is an area with examples in brackets (for example "NoSQL databases (e.g. MongoDB)"),
+  use "same" if the student has the area itself or any listed example.
+- COMBINED REQUIREMENTS: for something like "SQL and relational databases (PostgreSQL or MySQL)", match the student's closest skill (for example SQL or MySQL).
 
 Rules:
 - Only use skills from the student's list. Never invent skills.
