@@ -1,0 +1,26 @@
+CS301: Database Management Systems
+Semester V, Department of Computer Science and Engineering
+
+Course Description
+This course introduces the design and implementation of relational database systems.
+Students learn to model data, write queries, and build database-backed applications.
+
+Units
+Unit 1: Introduction to databases, ER modeling, relational model.
+Unit 2: SQL fundamentals: SELECT, joins, subqueries, aggregate functions, views.
+Unit 3: Normalization (1NF to BCNF), functional dependencies, schema design.
+Unit 4: Transactions, ACID properties, concurrency control, locking, recovery.
+Unit 5: Indexing, B+ trees, query processing and optimization basics.
+Unit 6: Introduction to NoSQL databases (MongoDB), when to choose NoSQL over SQL.
+
+Laboratory
+Weekly labs using MySQL: creating schemas, writing complex SQL queries with joins and
+subqueries, stored procedures and triggers. Lab 7 covers connecting a Python application
+to MySQL using a database connector.
+
+Assessment
+Mid-semester exam 20%, labs 20%, end-semester exam 40%,
+team project 20%: design and build a library management system with a MySQL backend
+and a Python command-line interface.
+
+Tools: MySQL, MongoDB (introductory), Python 3.

@@ -1,0 +1,16 @@
+Backend Engineer (Entry Level)
+
+We are looking for a Backend Engineer to build and maintain APIs for our data platform.
+
+Requirements:
+- Strong knowledge of Python
+- Experience with SQL and relational databases such as PostgreSQL or MySQL
+- Understanding of REST API design
+- Familiarity with Git and version control
+- Basic knowledge of Docker
+
+Nice to have:
+- Experience with FastAPI or Flask
+- Knowledge of cloud platforms (AWS or GCP)
+- Exposure to NoSQL databases such as MongoDB
+- Understanding of CI/CD pipelines
