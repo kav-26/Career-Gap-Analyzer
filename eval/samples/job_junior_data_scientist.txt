@@ -1,0 +1,16 @@
+Junior Data Scientist
+
+We are hiring a Junior Data Scientist to build predictive models and share insights with business teams.
+
+Requirements:
+- Proficiency in Python and data libraries such as Pandas and NumPy
+- Hands-on experience with machine learning algorithms using scikit-learn
+- Solid understanding of statistics and hypothesis testing
+- Ability to write SQL queries to extract data
+- Experience communicating findings with data visualization tools such as Matplotlib or Tableau
+
+Nice to have:
+- Experience with deep learning frameworks (TensorFlow or PyTorch)
+- Familiarity with cloud platforms such as AWS
+- Knowledge of MLOps or model deployment
+- Experience with A/B testing

@@ -1,0 +1,23 @@
+CS215: Web Technologies
+Semester IV, Department of Computer Science and Engineering
+
+Course Description
+Introduction to building interactive websites using core web technologies.
+
+Units
+Unit 1: HTML5 structure, semantic elements, forms, accessibility basics.
+Unit 2: CSS3: selectors, box model, flexbox, grid, responsive design with media queries.
+Unit 3: JavaScript fundamentals: variables, functions, DOM manipulation, events, ES6 features,
+        asynchronous programming with fetch and promises.
+Unit 4: Introduction to React: components, props, state, hooks (useState, useEffect).
+Unit 5: Consuming REST APIs from the browser, JSON handling.
+Unit 6: Version control with Git and publishing a site to GitHub Pages.
+
+Laboratory
+Weekly labs building web pages. Lab 8 builds a React to-do application. Lab 10 uses Git and GitHub for collaboration.
+
+Assessment
+Labs 30%, quiz 10%, end-semester exam 30%, project 30%: build a responsive multi-page website
+or a small React app that consumes a public API.
+
+Tools: HTML, CSS, JavaScript, React (introductory), Git, GitHub, VS Code, browser developer tools.

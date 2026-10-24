@@ -1,0 +1,36 @@
+{
+  "id": "case03_web_vs_frontend",
+  "description": "Web Technologies syllabus vs entry-level Frontend Developer job",
+  "syllabi": ["../samples/syllabus_web.txt"],
+  "job": "../samples/job_frontend_developer.txt",
+  "gold_skills": [
+    {"name": "HTML", "aliases": ["HTML5"], "level": "working"},
+    {"name": "CSS", "aliases": ["CSS3"], "level": "working"},
+    {"name": "Flexbox", "aliases": ["CSS Flexbox"], "level": "working"},
+    {"name": "CSS Grid", "aliases": ["Grid"], "level": "working"},
+    {"name": "Responsive Design", "aliases": ["Responsive Web Design", "Media queries"], "level": "working"},
+    {"name": "JavaScript", "aliases": [], "level": "working"},
+    {"name": "DOM Manipulation", "aliases": ["DOM"], "level": "working"},
+    {"name": "ES6", "aliases": ["ES6 features"], "level": "working"},
+    {"name": "Asynchronous Programming", "aliases": ["Promises", "Fetch API", "Async JavaScript"], "level": "working"},
+    {"name": "React", "aliases": ["React components", "ReactJS"], "level": "exposure"},
+    {"name": "React Hooks", "aliases": ["Hooks", "useState", "useEffect"], "level": "exposure"},
+    {"name": "REST APIs", "aliases": ["Consuming REST APIs", "API integration"], "level": "working"},
+    {"name": "JSON", "aliases": [], "level": "working"},
+    {"name": "Git", "aliases": ["Version control"], "level": "working"},
+    {"name": "GitHub", "aliases": ["GitHub Pages"], "level": "working"},
+    {"name": "Accessibility", "aliases": ["Web Accessibility"], "level": "exposure"}
+  ],
+  "acceptable_extras": ["Semantic HTML", "Forms", "Events", "Event Handling", "Browser Developer Tools", "VS Code", "Box Model", "CSS Selectors", "Props", "State Management", "Web Development"],
+  "gold_requirements": [
+    {"name": "HTML, CSS and JavaScript", "aliases": ["HTML", "CSS", "JavaScript", "HTML/CSS/JavaScript"], "importance": "must_have", "status": "covered"},
+    {"name": "React", "aliases": ["Building user interfaces with React"], "importance": "must_have", "status": "partial"},
+    {"name": "REST APIs", "aliases": ["Integrating REST APIs", "REST API integration"], "importance": "must_have", "status": "covered"},
+    {"name": "Responsive design and cross-browser compatibility", "aliases": ["Responsive design", "Cross-browser compatibility"], "importance": "must_have", "status": "partial"},
+    {"name": "Git", "aliases": ["Version control"], "importance": "must_have", "status": "covered"},
+    {"name": "TypeScript", "aliases": [], "importance": "nice_to_have", "status": "missing"},
+    {"name": "Testing tools (Jest or React Testing Library)", "aliases": ["Jest", "React Testing Library", "Testing"], "importance": "nice_to_have", "status": "missing"},
+    {"name": "CSS frameworks (Tailwind CSS)", "aliases": ["Tailwind CSS", "CSS frameworks"], "importance": "nice_to_have", "status": "missing"},
+    {"name": "Web performance and accessibility", "aliases": ["Accessibility", "Web performance"], "importance": "nice_to_have", "status": "partial"}
+  ]
+}

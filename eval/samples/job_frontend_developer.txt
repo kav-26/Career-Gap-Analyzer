@@ -1,0 +1,16 @@
+Frontend Developer (Entry Level)
+
+Build responsive, user-friendly web interfaces for our product.
+
+Requirements:
+- Strong skills in HTML, CSS and JavaScript
+- Experience building user interfaces with React
+- Experience integrating REST APIs
+- Understanding of responsive design and cross-browser compatibility
+- Familiarity with Git
+
+Nice to have:
+- Experience with TypeScript
+- Knowledge of testing tools such as Jest or React Testing Library
+- Familiarity with Tailwind CSS or other CSS frameworks
+- Basic understanding of web performance and accessibility

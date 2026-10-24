@@ -1,0 +1,22 @@
+CS342: Introduction to Machine Learning
+Semester VI, Department of Computer Science and Engineering
+
+Course Description
+Foundations of supervised and unsupervised learning with hands-on practice in Python.
+
+Units
+Unit 1: Python for data science: NumPy, Pandas, data cleaning, visualization with Matplotlib.
+Unit 2: Supervised learning: linear regression, logistic regression, decision trees, random forests, k-nearest neighbors.
+Unit 3: Model evaluation: train/test split, cross-validation, accuracy, precision, recall, F1, ROC curves, overfitting and regularization.
+Unit 4: Unsupervised learning: k-means clustering, PCA, hierarchical clustering.
+Unit 5: Introduction to neural networks: perceptron, backpropagation, a first look at TensorFlow and Keras.
+Unit 6: Basics of feature engineering and model deployment concepts (introduction only).
+
+Laboratory
+Weekly Jupyter notebook labs using scikit-learn on real datasets (housing prices, customer churn, digit recognition).
+
+Assessment
+Labs 25%, mid-semester exam 20%, end-semester exam 35%, project 20%: build and evaluate a classification
+model on a dataset of the student's choice and present the findings.
+
+Tools: Python, NumPy, Pandas, scikit-learn, Matplotlib, Jupyter, TensorFlow (introductory).

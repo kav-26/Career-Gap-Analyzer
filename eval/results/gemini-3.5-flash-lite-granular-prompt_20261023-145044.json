@@ -1,0 +1,911 @@
+{
+  "label": "gemini-3.5-flash-lite-granular-prompt",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp": "20261023-145044",
+  "summary": {
+    "cases_run": 3,
+    "cases_failed": 0,
+    "skills": {
+      "precision": 0.92,
+      "recall": 0.979,
+      "f1": 0.948,
+      "level_exact": 0.804,
+      "level_within1": 1.0
+    },
+    "requirements": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "importance_acc": 1.0
+    },
+    "status": {
+      "accuracy_found": 0.963,
+      "accuracy_end_to_end": 0.963,
+      "found_rate": 1.0,
+      "coverage_index_error_pts": 2.4,
+      "confusion": {
+        "covered": {
+          "covered": 8,
+          "partial": 0,
+          "missing": 0
+        },
+        "partial": {
+          "covered": 1,
+          "partial": 5,
+          "missing": 0
+        },
+        "missing": {
+          "covered": 0,
+          "partial": 0,
+          "missing": 13
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "case01_dbms_vs_backend",
+      "description": "Database Management Systems syllabus vs entry-level Backend Engineer job",
+      "skills": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.857,
+        "recall": 1.0,
+        "f1": 0.923,
+        "attr_total": 12,
+        "attr_exact": 6,
+        "attr_within1": 12,
+        "missed": [],
+        "false_positives": [
+          "Database Management Systems",
+          "Database Locking"
+        ],
+        "duplicates": [
+          "Schema Design",
+          "Database Transactions",
+          "Concurrency Control",
+          "B+ Trees",
+          "Query Optimization"
+        ],
+        "matched": [
+          [
+            "SQL",
+            "SQL"
+          ],
+          [
+            "MySQL",
+            "MySQL"
+          ],
+          [
+            "Database Design",
+            "ER Modeling"
+          ],
+          [
+            "Normalization",
+            "Database Normalization"
+          ],
+          [
+            "Transactions",
+            "ACID Properties"
+          ],
+          [
+            "Indexing",
+            "Database Indexing"
+          ],
+          [
+            "Query Optimization",
+            "Query Processing"
+          ],
+          [
+            "NoSQL",
+            "NoSQL"
+          ],
+          [
+            "MongoDB",
+            "MongoDB"
+          ],
+          [
+            "Python",
+            "Python"
+          ],
+          [
+            "Stored Procedures",
+            "Stored Procedures"
+          ],
+          [
+            "Triggers",
+            "Database Triggers"
+          ]
+        ]
+      },
+      "requirements": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attr_total": 9,
+        "attr_exact": 9,
+        "attr_within1": 9,
+        "missed": [],
+        "false_positives": [],
+        "duplicates": [],
+        "matched": [
+          [
+            "Python",
+            "Python"
+          ],
+          [
+            "SQL and relational databases (PostgreSQL or MySQL)",
+            "SQL and relational databases (PostgreSQL or MySQL)"
+          ],
+          [
+            "REST APIs",
+            "REST APIs"
+          ],
+          [
+            "Git",
+            "Git"
+          ],
+          [
+            "Docker",
+            "Docker"
+          ],
+          [
+            "FastAPI or Flask",
+            "FastAPI or Flask"
+          ],
+          [
+            "NoSQL databases (e.g. MongoDB)",
+            "NoSQL databases (e.g. MongoDB)"
+          ],
+          [
+            "CI/CD",
+            "CI/CD"
+          ],
+          [
+            "AWS or GCP",
+            "Cloud platforms (AWS or GCP)"
+          ]
+        ]
+      },
+      "status": {
+        "gold_total": 9,
+        "found": 9,
+        "correct": 9,
+        "rows": [
+          {
+            "gold": "Python",
+            "gold_status": "covered",
+            "system": "Python",
+            "system_status": "covered"
+          },
+          {
+            "gold": "SQL and relational databases (PostgreSQL or MySQL)",
+            "gold_status": "covered",
+            "system": "SQL and relational databases (PostgreSQL or MySQL)",
+            "system_status": "covered"
+          },
+          {
+            "gold": "REST APIs",
+            "gold_status": "missing",
+            "system": "REST APIs",
+            "system_status": "missing"
+          },
+          {
+            "gold": "Git",
+            "gold_status": "missing",
+            "system": "Git",
+            "system_status": "missing"
+          },
+          {
+            "gold": "Docker",
+            "gold_status": "missing",
+            "system": "Docker",
+            "system_status": "missing"
+          },
+          {
+            "gold": "FastAPI or Flask",
+            "gold_status": "missing",
+            "system": "FastAPI or Flask",
+            "system_status": "missing"
+          },
+          {
+            "gold": "AWS or GCP",
+            "gold_status": "missing",
+            "system": "Cloud platforms (AWS or GCP)",
+            "system_status": "missing"
+          },
+          {
+            "gold": "NoSQL databases (e.g. MongoDB)",
+            "gold_status": "partial",
+            "system": "NoSQL databases (e.g. MongoDB)",
+            "system_status": "partial"
+          },
+          {
+            "gold": "CI/CD",
+            "gold_status": "missing",
+            "system": "CI/CD",
+            "system_status": "missing"
+          }
+        ],
+        "confusion": {
+          "covered": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0
+          },
+          "partial": {
+            "covered": 0,
+            "partial": 1,
+            "missing": 0
+          },
+          "missing": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 6
+          }
+        },
+        "gold_index": 0.32142857142857145,
+        "system_index": 0.32142857142857145
+      },
+      "system_requirements": [
+        {
+          "name": "Python",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "Python",
+          "relation": "same"
+        },
+        {
+          "name": "SQL and relational databases (PostgreSQL or MySQL)",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "MySQL",
+          "relation": "same"
+        },
+        {
+          "name": "REST APIs",
+          "importance": "must_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Git",
+          "importance": "must_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Docker",
+          "importance": "must_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "FastAPI or Flask",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Cloud platforms (AWS or GCP)",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "NoSQL databases (e.g. MongoDB)",
+          "importance": "nice_to_have",
+          "status": "partial",
+          "matched_skill": "MongoDB",
+          "relation": "same"
+        },
+        {
+          "name": "CI/CD",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        }
+      ]
+    },
+    {
+      "id": "case02_ml_vs_data_scientist",
+      "description": "Introduction to Machine Learning syllabus vs Junior Data Scientist job",
+      "skills": {
+        "tp": 18,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.947,
+        "recall": 0.947,
+        "f1": 0.947,
+        "attr_total": 18,
+        "attr_exact": 16,
+        "attr_within1": 18,
+        "missed": [
+          "Neural Networks"
+        ],
+        "false_positives": [
+          "Perceptron"
+        ],
+        "duplicates": [
+          "Model Evaluation",
+          "k-Means Clustering",
+          "Hierarchical Clustering",
+          "Keras"
+        ],
+        "matched": [
+          [
+            "Python",
+            "Python"
+          ],
+          [
+            "NumPy",
+            "NumPy"
+          ],
+          [
+            "Pandas",
+            "Pandas"
+          ],
+          [
+            "Matplotlib",
+            "Matplotlib"
+          ],
+          [
+            "Data Cleaning",
+            "Data Cleaning"
+          ],
+          [
+            "Machine Learning",
+            "Supervised Learning"
+          ],
+          [
+            "scikit-learn",
+            "scikit-learn"
+          ],
+          [
+            "Linear Regression",
+            "Linear Regression"
+          ],
+          [
+            "Logistic Regression",
+            "Logistic Regression"
+          ],
+          [
+            "Decision Trees",
+            "Decision Trees"
+          ],
+          [
+            "Random Forests",
+            "Random Forests"
+          ],
+          [
+            "k-Nearest Neighbors",
+            "k-Nearest Neighbors"
+          ],
+          [
+            "Model Evaluation",
+            "Cross-Validation"
+          ],
+          [
+            "Clustering",
+            "Unsupervised Learning"
+          ],
+          [
+            "PCA",
+            "PCA"
+          ],
+          [
+            "TensorFlow",
+            "TensorFlow"
+          ],
+          [
+            "Feature Engineering",
+            "Feature Engineering"
+          ],
+          [
+            "Model Deployment",
+            "Model Deployment"
+          ]
+        ]
+      },
+      "requirements": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attr_total": 9,
+        "attr_exact": 9,
+        "attr_within1": 9,
+        "missed": [],
+        "false_positives": [],
+        "duplicates": [],
+        "matched": [
+          [
+            "Machine learning with scikit-learn",
+            "scikit-learn"
+          ],
+          [
+            "Statistics and hypothesis testing",
+            "Statistics and hypothesis testing"
+          ],
+          [
+            "SQL",
+            "SQL"
+          ],
+          [
+            "Deep learning frameworks (TensorFlow or PyTorch)",
+            "Deep learning frameworks (TensorFlow or PyTorch)"
+          ],
+          [
+            "Cloud platforms (AWS)",
+            "AWS"
+          ],
+          [
+            "MLOps or model deployment",
+            "MLOps or model deployment"
+          ],
+          [
+            "A/B testing",
+            "A/B testing"
+          ],
+          [
+            "Python and data libraries (Pandas, NumPy)",
+            "Python and data libraries (Pandas and NumPy)"
+          ],
+          [
+            "Data visualization (Matplotlib or Tableau)",
+            "Data visualization tools (Matplotlib or Tableau)"
+          ]
+        ]
+      },
+      "status": {
+        "gold_total": 9,
+        "found": 9,
+        "correct": 9,
+        "rows": [
+          {
+            "gold": "Python and data libraries (Pandas, NumPy)",
+            "gold_status": "covered",
+            "system": "Python and data libraries (Pandas and NumPy)",
+            "system_status": "covered"
+          },
+          {
+            "gold": "Machine learning with scikit-learn",
+            "gold_status": "covered",
+            "system": "scikit-learn",
+            "system_status": "covered"
+          },
+          {
+            "gold": "Statistics and hypothesis testing",
+            "gold_status": "missing",
+            "system": "Statistics and hypothesis testing",
+            "system_status": "missing"
+          },
+          {
+            "gold": "SQL",
+            "gold_status": "missing",
+            "system": "SQL",
+            "system_status": "missing"
+          },
+          {
+            "gold": "Data visualization (Matplotlib or Tableau)",
+            "gold_status": "covered",
+            "system": "Data visualization tools (Matplotlib or Tableau)",
+            "system_status": "covered"
+          },
+          {
+            "gold": "Deep learning frameworks (TensorFlow or PyTorch)",
+            "gold_status": "partial",
+            "system": "Deep learning frameworks (TensorFlow or PyTorch)",
+            "system_status": "partial"
+          },
+          {
+            "gold": "Cloud platforms (AWS)",
+            "gold_status": "missing",
+            "system": "AWS",
+            "system_status": "missing"
+          },
+          {
+            "gold": "MLOps or model deployment",
+            "gold_status": "partial",
+            "system": "MLOps or model deployment",
+            "system_status": "partial"
+          },
+          {
+            "gold": "A/B testing",
+            "gold_status": "missing",
+            "system": "A/B testing",
+            "system_status": "missing"
+          }
+        ],
+        "confusion": {
+          "covered": {
+            "covered": 3,
+            "partial": 0,
+            "missing": 0
+          },
+          "partial": {
+            "covered": 0,
+            "partial": 2,
+            "missing": 0
+          },
+          "missing": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 4
+          }
+        },
+        "gold_index": 0.5,
+        "system_index": 0.5
+      },
+      "system_requirements": [
+        {
+          "name": "Python and data libraries (Pandas and NumPy)",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "Python",
+          "relation": "same"
+        },
+        {
+          "name": "scikit-learn",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "scikit-learn",
+          "relation": "same"
+        },
+        {
+          "name": "Statistics and hypothesis testing",
+          "importance": "must_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "SQL",
+          "importance": "must_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Data visualization tools (Matplotlib or Tableau)",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "Matplotlib",
+          "relation": "same"
+        },
+        {
+          "name": "Deep learning frameworks (TensorFlow or PyTorch)",
+          "importance": "nice_to_have",
+          "status": "partial",
+          "matched_skill": "TensorFlow",
+          "relation": "same"
+        },
+        {
+          "name": "AWS",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "MLOps or model deployment",
+          "importance": "nice_to_have",
+          "status": "partial",
+          "matched_skill": "Model Deployment",
+          "relation": "same"
+        },
+        {
+          "name": "A/B testing",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        }
+      ]
+    },
+    {
+      "id": "case03_web_vs_frontend",
+      "description": "Web Technologies syllabus vs entry-level Frontend Developer job",
+      "skills": {
+        "tp": 16,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.941,
+        "recall": 1.0,
+        "f1": 0.97,
+        "attr_total": 16,
+        "attr_exact": 15,
+        "attr_within1": 16,
+        "missed": [],
+        "false_positives": [
+          "Semantic Elements"
+        ],
+        "duplicates": [
+          "CSS Selectors",
+          "Media Queries",
+          "Fetch API",
+          "Promises",
+          "React Components",
+          "React Props",
+          "React State",
+          "GitHub"
+        ],
+        "matched": [
+          [
+            "HTML",
+            "HTML5"
+          ],
+          [
+            "CSS",
+            "CSS3"
+          ],
+          [
+            "Flexbox",
+            "Flexbox"
+          ],
+          [
+            "CSS Grid",
+            "CSS Grid"
+          ],
+          [
+            "Responsive Design",
+            "Responsive Design"
+          ],
+          [
+            "JavaScript",
+            "JavaScript"
+          ],
+          [
+            "DOM Manipulation",
+            "DOM Manipulation"
+          ],
+          [
+            "ES6",
+            "ES6"
+          ],
+          [
+            "Asynchronous Programming",
+            "Asynchronous Programming"
+          ],
+          [
+            "React",
+            "React"
+          ],
+          [
+            "React Hooks",
+            "React Hooks"
+          ],
+          [
+            "REST APIs",
+            "REST APIs"
+          ],
+          [
+            "JSON",
+            "JSON"
+          ],
+          [
+            "Git",
+            "Git"
+          ],
+          [
+            "GitHub",
+            "GitHub Pages"
+          ],
+          [
+            "Accessibility",
+            "Accessibility"
+          ]
+        ]
+      },
+      "requirements": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "attr_total": 9,
+        "attr_exact": 9,
+        "attr_within1": 9,
+        "missed": [],
+        "false_positives": [],
+        "duplicates": [],
+        "matched": [
+          [
+            "HTML, CSS and JavaScript",
+            "HTML, CSS and JavaScript"
+          ],
+          [
+            "React",
+            "React"
+          ],
+          [
+            "REST APIs",
+            "REST APIs"
+          ],
+          [
+            "Responsive design and cross-browser compatibility",
+            "Responsive design and cross-browser compatibility"
+          ],
+          [
+            "Git",
+            "Git"
+          ],
+          [
+            "TypeScript",
+            "TypeScript"
+          ],
+          [
+            "Testing tools (Jest or React Testing Library)",
+            "Testing tools (Jest or React Testing Library)"
+          ],
+          [
+            "Web performance and accessibility",
+            "Web performance and accessibility"
+          ],
+          [
+            "CSS frameworks (Tailwind CSS)",
+            "Tailwind CSS or other CSS frameworks"
+          ]
+        ]
+      },
+      "status": {
+        "gold_total": 9,
+        "found": 9,
+        "correct": 8,
+        "rows": [
+          {
+            "gold": "HTML, CSS and JavaScript",
+            "gold_status": "covered",
+            "system": "HTML, CSS and JavaScript",
+            "system_status": "covered"
+          },
+          {
+            "gold": "React",
+            "gold_status": "partial",
+            "system": "React",
+            "system_status": "partial"
+          },
+          {
+            "gold": "REST APIs",
+            "gold_status": "covered",
+            "system": "REST APIs",
+            "system_status": "covered"
+          },
+          {
+            "gold": "Responsive design and cross-browser compatibility",
+            "gold_status": "partial",
+            "system": "Responsive design and cross-browser compatibility",
+            "system_status": "covered"
+          },
+          {
+            "gold": "Git",
+            "gold_status": "covered",
+            "system": "Git",
+            "system_status": "covered"
+          },
+          {
+            "gold": "TypeScript",
+            "gold_status": "missing",
+            "system": "TypeScript",
+            "system_status": "missing"
+          },
+          {
+            "gold": "Testing tools (Jest or React Testing Library)",
+            "gold_status": "missing",
+            "system": "Testing tools (Jest or React Testing Library)",
+            "system_status": "missing"
+          },
+          {
+            "gold": "CSS frameworks (Tailwind CSS)",
+            "gold_status": "missing",
+            "system": "Tailwind CSS or other CSS frameworks",
+            "system_status": "missing"
+          },
+          {
+            "gold": "Web performance and accessibility",
+            "gold_status": "partial",
+            "system": "Web performance and accessibility",
+            "system_status": "partial"
+          }
+        ],
+        "confusion": {
+          "covered": {
+            "covered": 3,
+            "partial": 0,
+            "missing": 0
+          },
+          "partial": {
+            "covered": 1,
+            "partial": 2,
+            "missing": 0
+          },
+          "missing": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3
+          }
+        },
+        "gold_index": 0.6071428571428571,
+        "system_index": 0.6785714285714286
+      },
+      "system_requirements": [
+        {
+          "name": "HTML, CSS and JavaScript",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "JavaScript",
+          "relation": "same"
+        },
+        {
+          "name": "React",
+          "importance": "must_have",
+          "status": "partial",
+          "matched_skill": "React",
+          "relation": "same"
+        },
+        {
+          "name": "REST APIs",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "REST APIs",
+          "relation": "same"
+        },
+        {
+          "name": "Responsive design and cross-browser compatibility",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "Responsive Design",
+          "relation": "same"
+        },
+        {
+          "name": "Git",
+          "importance": "must_have",
+          "status": "covered",
+          "matched_skill": "Git",
+          "relation": "same"
+        },
+        {
+          "name": "TypeScript",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Testing tools (Jest or React Testing Library)",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Tailwind CSS or other CSS frameworks",
+          "importance": "nice_to_have",
+          "status": "missing",
+          "matched_skill": null,
+          "relation": "none"
+        },
+        {
+          "name": "Web performance and accessibility",
+          "importance": "nice_to_have",
+          "status": "partial",
+          "matched_skill": "Accessibility",
+          "relation": "related"
+        }
+      ]
+    }
+  ]
+}

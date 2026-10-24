@@ -1,0 +1,32 @@
+{
+  "id": "case01_dbms_vs_backend",
+  "description": "Database Management Systems syllabus vs entry-level Backend Engineer job",
+  "syllabi": ["../samples/syllabus_dbms.txt"],
+  "job": "../samples/job_backend_engineer.txt",
+  "gold_skills": [
+    {"name": "SQL", "aliases": ["Structured Query Language", "SQL queries"], "level": "working"},
+    {"name": "MySQL", "aliases": [], "level": "working"},
+    {"name": "Database Design", "aliases": ["ER modeling", "Entity-Relationship modeling", "Schema design", "Database Modeling"], "level": "working"},
+    {"name": "Normalization", "aliases": ["Database Normalization"], "level": "working"},
+    {"name": "Transactions", "aliases": ["ACID properties", "Transaction Management", "Concurrency Control"], "level": "exposure"},
+    {"name": "Indexing", "aliases": ["B+ Trees", "Database Indexing"], "level": "exposure"},
+    {"name": "Query Optimization", "aliases": ["Query processing"], "level": "exposure"},
+    {"name": "NoSQL", "aliases": ["NoSQL databases"], "level": "exposure"},
+    {"name": "MongoDB", "aliases": [], "level": "exposure"},
+    {"name": "Python", "aliases": [], "level": "working"},
+    {"name": "Stored Procedures", "aliases": [], "level": "working"},
+    {"name": "Triggers", "aliases": ["Database Triggers"], "level": "working"}
+  ],
+  "acceptable_extras": ["Joins", "Subqueries", "Relational Model", "Relational Databases", "Views", "Functional Dependencies", "Database Connectivity", "Concurrency Control", "Aggregate Functions", "Recovery"],
+  "gold_requirements": [
+    {"name": "Python", "aliases": [], "importance": "must_have", "status": "covered"},
+    {"name": "SQL and relational databases (PostgreSQL or MySQL)", "aliases": ["SQL", "Relational databases", "PostgreSQL or MySQL"], "importance": "must_have", "status": "covered"},
+    {"name": "REST APIs", "aliases": ["REST API design"], "importance": "must_have", "status": "missing"},
+    {"name": "Git", "aliases": ["Version control"], "importance": "must_have", "status": "missing"},
+    {"name": "Docker", "aliases": [], "importance": "must_have", "status": "missing"},
+    {"name": "FastAPI or Flask", "aliases": ["FastAPI", "Flask"], "importance": "nice_to_have", "status": "missing"},
+    {"name": "AWS or GCP", "aliases": ["Cloud platforms", "AWS", "GCP"], "importance": "nice_to_have", "status": "missing"},
+    {"name": "NoSQL databases (e.g. MongoDB)", "aliases": ["NoSQL", "MongoDB"], "importance": "nice_to_have", "status": "partial"},
+    {"name": "CI/CD", "aliases": ["CI/CD pipelines"], "importance": "nice_to_have", "status": "missing"}
+  ]
+}

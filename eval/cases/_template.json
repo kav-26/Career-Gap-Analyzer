@@ -1,0 +1,13 @@
+{
+  "id": "case04_yourname",
+  "description": "Course name vs job title",
+  "syllabi": ["../samples/your_syllabus.txt"],
+  "job": "../samples/your_job_posting.txt",
+  "gold_skills": [
+    {"name": "SQL", "aliases": ["Structured Query Language"], "level": "working"}
+  ],
+  "acceptable_extras": ["Skills that are fine if the system lists them but you did not label"],
+  "gold_requirements": [
+    {"name": "Python", "aliases": [], "importance": "must_have", "status": "covered"}
+  ]
+}

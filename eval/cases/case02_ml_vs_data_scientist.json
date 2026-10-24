@@ -1,0 +1,39 @@
+{
+  "id": "case02_ml_vs_data_scientist",
+  "description": "Introduction to Machine Learning syllabus vs Junior Data Scientist job",
+  "syllabi": ["../samples/syllabus_ml.txt"],
+  "job": "../samples/job_junior_data_scientist.txt",
+  "gold_skills": [
+    {"name": "Python", "aliases": [], "level": "working"},
+    {"name": "NumPy", "aliases": [], "level": "working"},
+    {"name": "Pandas", "aliases": [], "level": "working"},
+    {"name": "Matplotlib", "aliases": ["Data Visualization"], "level": "working"},
+    {"name": "Data Cleaning", "aliases": ["Data Preprocessing"], "level": "working"},
+    {"name": "Machine Learning", "aliases": ["Supervised Learning"], "level": "proficient"},
+    {"name": "scikit-learn", "aliases": ["sklearn"], "level": "proficient"},
+    {"name": "Linear Regression", "aliases": ["Regression"], "level": "working"},
+    {"name": "Logistic Regression", "aliases": [], "level": "working"},
+    {"name": "Decision Trees", "aliases": [], "level": "working"},
+    {"name": "Random Forests", "aliases": ["Random Forest"], "level": "working"},
+    {"name": "k-Nearest Neighbors", "aliases": ["KNN"], "level": "working"},
+    {"name": "Model Evaluation", "aliases": ["Cross-validation", "Evaluation Metrics"], "level": "working"},
+    {"name": "Clustering", "aliases": ["k-means", "Unsupervised Learning"], "level": "working"},
+    {"name": "PCA", "aliases": ["Principal Component Analysis", "Dimensionality Reduction"], "level": "working"},
+    {"name": "Neural Networks", "aliases": ["Deep Learning"], "level": "exposure"},
+    {"name": "TensorFlow", "aliases": ["Keras"], "level": "exposure"},
+    {"name": "Feature Engineering", "aliases": [], "level": "exposure"},
+    {"name": "Model Deployment", "aliases": [], "level": "exposure"}
+  ],
+  "acceptable_extras": ["Jupyter", "Jupyter Notebook", "Overfitting", "Regularization", "ROC curves", "Hierarchical Clustering", "Backpropagation", "Data Analysis", "Classification", "Train/Test Split"],
+  "gold_requirements": [
+    {"name": "Python and data libraries (Pandas, NumPy)", "aliases": ["Python", "Pandas", "NumPy", "Python and Pandas"], "importance": "must_have", "status": "covered"},
+    {"name": "Machine learning with scikit-learn", "aliases": ["Machine Learning", "scikit-learn", "ML algorithms"], "importance": "must_have", "status": "covered"},
+    {"name": "Statistics and hypothesis testing", "aliases": ["Statistics", "Hypothesis testing"], "importance": "must_have", "status": "missing"},
+    {"name": "SQL", "aliases": ["SQL queries"], "importance": "must_have", "status": "missing"},
+    {"name": "Data visualization (Matplotlib or Tableau)", "aliases": ["Matplotlib", "Data visualization", "Matplotlib or Tableau"], "importance": "must_have", "status": "covered"},
+    {"name": "Deep learning frameworks (TensorFlow or PyTorch)", "aliases": ["TensorFlow", "Deep learning", "TensorFlow or PyTorch"], "importance": "nice_to_have", "status": "partial"},
+    {"name": "Cloud platforms (AWS)", "aliases": ["AWS", "Cloud platforms"], "importance": "nice_to_have", "status": "missing"},
+    {"name": "MLOps or model deployment", "aliases": ["Model deployment", "MLOps"], "importance": "nice_to_have", "status": "partial"},
+    {"name": "A/B testing", "aliases": ["AB testing"], "importance": "nice_to_have", "status": "missing"}
+  ]
+}
