@@ -278,9 +278,3 @@ The app runs on free tiers: **Render** for the backend (web service) and fronten
 
 Built by **Anjani Kavya**.
 
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
-- LinkedIn: add your link here
-
-## License
-
-Add a license of your choice (for example MIT) by creating a `LICENSE` file, and name it here.
