@@ -2,7 +2,7 @@
 
 An AI-assisted tool that compares what a student has **actually been taught** (course syllabi) with what an **employer asks for** (a job posting). It extracts skills from both sides, scores the gaps with an evidence trail, and recommends ranked portfolio projects to close them.
 
-> **Live demo:** `https://YOUR-FRONTEND.onrender.com` (free tier: the first visit after a quiet period can take about a minute while the server wakes up)
+> **Live demo:** `https://career-gap-analyzer-kohl.vercel.app/'
 
 ---
 
