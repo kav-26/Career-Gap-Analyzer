@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const BASE = import.meta.env.VITE_API_URL || "https://career-gap-analyzer-vr3q.onrender.com";
 
 // LLM calls can be slow, so allow up to 3 minutes per request.
 export const api = axios.create({ baseURL: BASE, timeout: 180000 });
